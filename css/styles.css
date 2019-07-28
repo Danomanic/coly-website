@@ -1,45 +1,74 @@
-@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
-body {
-    font-family: 'Questrial', sans-serif;
-    background-image: url(../bg.svg);
-    background-size: 100%;
-    font-size: 12px;
+.button.is-black {
+    background-color: #000000;
+    border-color: transparent;
+    color: #fff;
 }
 
-.outer {
-    display: table;
-    position: absolute;
-    height: 100%;
-    width: 100%;
+.navbar {
+    border-bottom: 1px solid #eeeeee;
+    padding: 3em;
 }
 
-.middle {
-    display: table-cell;
-    vertical-align: middle;
+.landing {
+    margin-bottom: 10em;
+    
 }
 
-.inner {
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
+.landing-body {
+    padding: 3em;
+}
+
+.landing-body .title {
+    margin-top: 2em;
+    font-size: 4em;
+}
+
+.landing-body .subtitle {
+    padding-top: 1em;
+}
+
+.products {
+    margin-bottom: 5em;
+}
+
+.product {
+    margin-bottom: 3em;
+}
+
+.product-info {
+    padding: 4em 3em;
+}
+
+.product-image {
+    max-height: 30em;
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto;
     text-align: center;
+    padding: 2em;
 }
 
-h1 {
-    color: #ffffff;
-    font-size: 6em;
-    text-shadow: 1px 1px 2px black, 0 0 35px #003459, 0 0 5px #00171F;
-    text-transform: uppercase;
+.product-one {
+    background-color: hsl(171, 100%, 41%);
 }
 
-h2 {
-    color: #ffffff;
+.product-two {
+    background-color: hsl(204, 86%, 53%);
+}
+
+.product-three {
+    background-color: hsl(141, 71%, 48%);
+}
+
+.product-image img {
+    width: 70%;
+}
+
+.product-title {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.product-desc {
     font-size: 2em;
-    text-shadow: 1px 1px 2px black, 0 0 35px #003459, 0 0 5px #00171F;
-    margin-bottom: 40px;
-}
-
-a {
-    color: #00A8E8;
-    font-size: 16px;
 }
